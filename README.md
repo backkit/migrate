@@ -1,7 +1,7 @@
 # Migration service for BackKit
 
 
-# install
+## install
 
 ```
 npm install --save	https://github.com/backkit/migrate.git \
@@ -9,25 +9,25 @@ npm install --save	https://github.com/backkit/migrate.git \
 					https://github.com/backkit/config.git
 ```
 
-# list existing migrations
+## list existing migrations
 
 ```
 LOG_FORMAT=flat ENTRYPOINT=migrate node index.js ls
 ```
 
-# migrate up
+## migrate up
 
 ```
 LOG_FORMAT=flat ENTRYPOINT=migrate node index.js up
 ```
 
-# migrate down
+## migrate down
 
 ```
 LOG_FORMAT=flat ENTRYPOINT=migrate node index.js down
 ```
 
-# create new migration
+## create new migration
 
 ```
 LOG_FORMAT=flat ENTRYPOINT=migrate node index.js new
