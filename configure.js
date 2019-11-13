@@ -1,8 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const inquirer = require('inquirer');
 const yaml = require('js-yaml');
-const beautifyjs = require('js-beautify').js;
 
 const skipPrompt = process.env.NO_INTERACTIVE || process.env.NO_PROMPT ? true : false;
 const skipAutoconf = process.env.NO_AUTOCONF ? true : false;
