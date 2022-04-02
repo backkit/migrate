@@ -4,9 +4,9 @@
 ## install
 
 ```
-npm install --save	https://github.com/backkit/migrate.git \
-					https://github.com/backkit/winston.git \
-					https://github.com/backkit/config.git
+npm install --save	@backkit/migrate \
+			@backkit/winston \
+			@backkit/config
 ```
 
 ## list existing migrations
