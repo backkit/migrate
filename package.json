@@ -1,6 +1,6 @@
 {
   "name": "@backkit/migrate",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Migration service for backkit",
   "main": "index.js",
   "scripts": {
