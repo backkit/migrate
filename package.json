@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/backkit/migrate#readme",
   "dependencies": {
-    "js-yaml": "^3.13.1",
+    "@backkit/autoconf": "^0.1.1",
     "moment": "^2.24.0"
   },
   "publishConfig": {
